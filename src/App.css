@@ -24,9 +24,49 @@
   color: white;
 }
 
+.bgdata {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
 .App-link {
   color: #61dafb;
 }
+
+.login-form{
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    /* background-color: #fff; */
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border-radius: .25rem;
+}
+.card1{
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+   
+    /* background-color: #fff; */
+    background-clip: border-box;
+   border: 1px solid rgba(0,0,0,.125); 
+    border-radius: .25rem;
+}
+.active{
+  color:"#007bff"
+}
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +76,305 @@
     transform: rotate(360deg);
   }
 }
+.modal-open .modal {
+  display: block;
+   margin-top: 220px;
+ }
+ .myButtonClass
+ {
+   margin-right: 5px;
+ }
+
+ .pass-icon{
+
+  position: relative;
+  top: -25px;
+  right: 5px;
+ }
+
+
+ .firstdata {
+  background-image: url('./images/depart1.jpg');
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+
+}
+.secondcard {
+  background-image: url('./images/medicine.jpg');
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+
+}
+.thirdcard {
+  background-image: url('./images/appointment.jpg');
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+
+}
+
+.seconddata {
+  background-image: url('./images/banner2.jpg');
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+
+}
+
+.thirddata {
+  background-image: url('./images/depart.jpg');
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: "450px",
+ 
+
+}
+
+.imgbg {
+  background-image: url('./images/images.jpg');
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+
+}
+
+.vl {
+  border-left: 1px solid black;
+  height: 500px;
+}
+
+@media only screen and  (max-width: 1024px) {
+  .imgmargin{
+    height:700px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1120px) {
+  .imgmargin{
+    height:450px;
+  }
+}
+
+@media only screen and (min-width: 1121px) and (max-width: 1300px) {
+  .imgmargin{
+    height:450px;
+  }
+}
+@media only screen and (min-width: 1301px) and  (max-width: 1550px) {
+  .imgmargin{
+    height:500px; 
+  }
+}
+@media only screen and (min-width: 1551px) and  (max-width: 1750px) {
+  .imgmargin{
+      height:530px;
+  }
+}
+@media only screen and (min-width: 1751px) and  (max-width: 1850px) {
+  .imgmargin{
+    
+    height:600px;
+  }
+}
+@media only screen and (min-width: 1851px) and  (max-width: 2050px) {
+  .imgmargin{
+    
+    height:670px;
+  }
+}
+@media only screen and (min-width: 2051px) and  (max-width: 2250px) {
+  .imgmargin{
+    
+    height:720px;
+  }
+}
+@media only screen and (min-width: 2251px) and  (max-width: 2450px){
+  .imgmargin{
+    
+    height:780px;
+  }
+}
+@media only screen and (min-width: 2451px) {
+  .imgmargin{
+    
+    height:900px;
+  }
+}
+
+
+@media only screen and  (max-width: 759px){
+  .medical {
+    background-color: #3333FF;
+    height: 240px;
+    color: white;
+  } 
+}
+
+@media only screen and (min-width: 760px) and  (max-width: 993px){
+  .medical {
+    background-color: #3333FF;
+    height: 315px;
+    color: white;
+  } 
+}
+@media only screen and  (min-width: 994px) and  (max-width: 1199px){
+  .medical {
+    background-color: #3333FF;
+    height: 290px;
+    color: white;
+  }
+}
+
+@media only screen and  (min-width: 1200px){
+  .medical {
+    background-color: #3333FF;
+    height: 240px;
+    color: white;
+  } 
+}
+
+
+@media only screen and  (max-width: 759px){
+  .doctor {
+    background-color: #3366FF;
+    height: 240px;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 760px) and  (max-width: 993px){
+  .doctor {
+    background-color: #3366FF;
+    height: 315px;
+    color: white;
+  }
+}
+
+@media only screen and  (min-width: 994px) and  (max-width: 1199px){
+  .doctor {
+    background-color: #3366FF;
+    height: 290px;
+    color: white;
+  }
+}
+
+@media only screen and  (min-width: 1200px){
+  .doctor {
+    background-color: #3366FF;
+    height: 240px;
+    color: white;
+  }
+}
+
+
+@media only screen and  (max-width: 759px){
+  .appointment {
+    background-color: #3399FF;
+    height: 240px;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 760px) and  (max-width: 993px){
+  .appointment {
+    background-color: #3399FF;
+    height: 315px;
+    color: white;
+  }
+}
+
+@media only screen and  (min-width: 994px) and  (max-width: 1199px){
+  .appointment {
+    background-color: #3399FF;
+    height: 290px;
+    color: white;
+  }
+}
+
+@media only screen and  (min-width: 1200px){
+  .appointment {
+    background-color: #3399FF;
+    height: 240px;
+    color: white;
+  }
+}
+
+
+@media only screen and  (max-width: 759px){
+  .emergency {
+    background-color: #33CCFF;
+    height: 240px;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 760px) and  (max-width: 993px){
+  .emergency {
+    background-color: #33CCFF;
+    height: 315px;
+    color: white;
+  }
+}
+
+@media only screen and  (min-width: 994px) and  (max-width: 1199px){
+  .emergency {
+    background-color: #33CCFF;
+    height: 290px;
+    color: white;
+  }
+}
+
+@media only screen and  (min-width: 1200px){
+  .emergency {
+    background-color: #33CCFF;
+    height: 240px;
+    color: white;
+  }
+}
+
+
+@media only screen and  (max-width: 759px){
+  .equipment {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 760px) and  (max-width: 993px){
+  .equipment {
+    height: 350px;
+  }
+}
+
+@media only screen and  (min-width: 994px) and  (max-width: 1199px){
+  .equipment {
+    height: 320px;
+  }
+}
+
+@media only screen and  (min-width: 1200px){
+  .equipment {
+    height: 300px;
+  }
+}
+.carddata{
+  background-color: whitesmoke;
+  padding-left: 10px;
+  margin-left: 12px;
+  margin-top: 37%;
+  border-radius: 8px;
+  max-width: 30px;
+}
+
