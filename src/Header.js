@@ -22,33 +22,20 @@ import  './App.css';
 export default class Headerdata extends Component {
    
 
-    constructor(props){
-      super(props);
-  
-      this.state = {
-        show: false
-      }
+  constructor(props){
+    super(props);
+
     
-      this.toggleShow = this.toggleShow.bind(this);
-      this.hide = this.hide.bind(this);
-    }
+  }
   
-    toggleShow(){
-      this.setState({show: !this.state.show});
-    }
-    hide(e){
-      if(e && e.relatedTarget){
-        e.relatedTarget.click();
-      }
-      this.setState({show: false});
-    }
+    
     
     render(){
          
           return (
         <div>
          <header>
-          <nav  className="navbar navbar-expand-lg">
+          <nav  className="navbar navbar-expand-lg navbar-light">
          
          <Container fluid={true}>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

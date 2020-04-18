@@ -122,14 +122,7 @@ export default class Footerdata extends Component {
                   <span style={{marginLeft:"10px"}} class="vl"></span>
                   <span style={{marginLeft:"10px"}}>Website Disclaimer</span>
                   </div>
-                  <div className="col-md-4">
-                  <i className="fas fa-facebook"></i>
-                  <i class="fa fa-instagram"></i>
-                    <span>
-                        11111
-                        <i className="fa-facebook"></i>
-                    </span>
-                  </div>
+                  
                   
               </div>
               </Container>

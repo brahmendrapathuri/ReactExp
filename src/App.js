@@ -189,7 +189,7 @@ class Bodydata extends Component {
       </section>
       <br></br>
       <section>
-      <div style={{maxHeight: "500px",width:"100%"}} className="imgbg">
+      <div style={{minHeight: "400px"}} className="imgbg">
         <Container fluid={true}>
          <div className="row">
            <div className="col-md-6 col-sm-12 col-xs-12 mt-5 text-white">
